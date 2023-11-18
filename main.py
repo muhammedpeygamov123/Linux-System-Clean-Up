@@ -18,10 +18,10 @@ def password():
                     print("System cleanup complete!")
                 except subprocess.CalledProcessError as e:
                     print(f"Error during cleanup: {e}")
-                break  # Exit the while loop if the password is correct
+                break  
             else:
                 print("Cleanup aborted.")
-                break  # Exit the while loop if the user doesn't want to clean the system
+                break  
         else:
             print('Please Try Again!')
 
